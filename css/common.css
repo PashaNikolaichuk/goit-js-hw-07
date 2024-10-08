@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+.item {
+  background-color: #f6f6fe;
+  list-style: none;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  width: 400px;
+  padding: 16px;
+}
+
+.lalala {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-top: 0px;
+}
+
+.item-list {
+  padding: 0;
+}
+
+.item-task-1 {
+  list-style: none;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding: 16px 8px;
+}
+
+/* task - 2 */
+
+.gallery {
+  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.gallery-list {
+  width: calc((100% - 48px) / 3);
+}
+
+.img-gallery {
+  width: 100%;
+  height: 250px;
+  display: block;
+}
+
+/* task-3 */
+
+#name-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding-left: 16px;
+}
+
+.input-text {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+/* task-4 */
+
+.login-form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.label-form {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.input-task-4 {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding-left: 18px;
+}
+
+.input-task-4:active {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding-left: 18px;
+}
+
+.input-task-4:hover {
+  border: 1px solid #000;
+}
+
+.btn-tack-4 {
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: 0;
+}
+
+.btn-tack-4:hover,
+.task-6-create:hover {
+  background-color: #6c8cff;
+}
+
+/* tasck - 5 */
+.widget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.para {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin: 0;
+}
+
+.change-color {
+  border-radius: 8px;
+  border: 0;
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+/* tasck - 6 */
+#controls {
+  border-radius: 8px;
+  padding: 32px;
+  background-color: #f6f6fe;
+}
+
+.task-6-input {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 72px;
+}
+
+.task-6-create {
+  border: 0;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.task-6-destroy {
+  border: 0;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: #ff4e4e;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.task-6-destroy:hover {
+  background-color: #ff7070;
+}
+
+#boxes {
+  display: flex;
+  border-radius: 8px;
+  padding: 32px;
+  background-color: #f6f6fe;
+}
